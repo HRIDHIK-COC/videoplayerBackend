@@ -1,0 +1,69 @@
+server creation
+-------------
+  1) create  a folder for server
+
+  server - node -  express(real server)
+                -  json-server(fake server library)
+
+npm  - node modules
+     - package.json
+
+  2) create package.json file in node server
+            -> npm init
+
+
+  3) install json server 
+           -> npm i json-server // not efficient version will be installed
+
+
+
+
+
+
+api request
+----------
+
+* add video        - (title,cover image url,video url) =post method
+ access videos     - get
+ add new category  - post
+ access category   - get
+ drag and drop     - update category
+ watch history     - (date & time ,title ,videoUrl) post 
+ get histories     - get
+ video delete      - id 
+ cat delete        - id 
+ history delete    - id 
+
+
+
+ import
+ -------
+* import = provide top of the file 
+
+* require = can use anywhere in a file
+
+---------------
+
+ CORS (cross origin resource sharing)
+ -------------------
+ library used to connct frontend and server
+
+ command to install -npm i cors
+
+ ------------------------------------------------
+
+data conversion (json => js ) before resolving each api request
+
+middlewares
+
+1) application specific middlewares - apply middlewares for application bcz all request in that server app
+                                     need the   middleware
+
+2) router specific middlewares    -  apply middleware for a specific request that need middleware
+
+
+----------------------
+
+nodemon -provide  automatic recombination
+       
+       npm i -g nodemon

@@ -1,0 +1,30 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "abc",
+      "coverImg": " ",
+      "videoUrl": ""
+    },
+    {
+      "id": 2,
+      "title": "abcdefc",
+      "coverImg": " ",
+      "videoUrl": ""
+    },
+    {
+      "title": "123",
+      "coverImg": "jhfx",
+      "videoUrl": "hshghxh",
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "CategoryName": "Trending",
+      "Videos": []
+    }
+  ],
+  "histories": []
+}
